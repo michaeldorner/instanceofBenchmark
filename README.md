@@ -1,2 +1,2 @@
-# instanceofbenchmark
-Bechmarking Java's instanceof and its alternatives
+# instanceofBenchmark
+> Bechmarking Java's instanceof and its alternatives
