@@ -1,7 +1,7 @@
 # instanceofBenchmark
 > Bechmarking Java's instanceof and its alternatives
 
-For results and description please see the related StackOverflow answer. 
+For results and description please see the [related StackOverflow answer](http://stackoverflow.com/a/26514984/1864294). 
 
 # Run Benchmark
 
@@ -10,4 +10,4 @@ For results and description please see the related StackOverflow answer.
 
 # Discussion and Contributions
 
-Please feel free to comment on StackOverflow or to contribute directly to this project. The license of this code is unser MIT. 
+Please feel free to [comment on StackOverflow](http://stackoverflow.com/a/26514984/1864294) or to contribute directly to this project. The license of this code is unser MIT. 
