@@ -11,7 +11,7 @@ import org.openjdk.jmh.annotations.*;
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @Warmup(iterations = 100, time = 1, timeUnit = TimeUnit.SECONDS)
 @Measurement(iterations = 1000, time = 1, timeUnit = TimeUnit.SECONDS)
-@Fork(4)
+@Fork(10)
 @State(Scope.Benchmark)
 public class MyBenchmark {
 
