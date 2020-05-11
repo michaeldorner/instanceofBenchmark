@@ -6,7 +6,6 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import org.openjdk.jmh.annotations.*;
 
-
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @Warmup(iterations = 100, time = 1, timeUnit = TimeUnit.SECONDS)
@@ -16,7 +15,8 @@ import org.openjdk.jmh.annotations.*;
 public class MyBenchmark {
 
 	private Base base;
-	private List<Base> classes = Arrays.asList(new A(), new B(), new C(), new D(), new E(), new F(), new G(), new H(), new I(), new J());;
+	private List<Base> classes = Arrays.asList(new A(), new B(), new C(), new D(), new E(), new F(), new G(), new H(),
+			new I(), new J());
 	private Random random = new Random();
 
 	@Setup(Level.Trial)
@@ -63,38 +63,38 @@ public class MyBenchmark {
 	@Benchmark
 	public void measureTYPE() {
 		switch (base.type) {
-		case A:
-			((A) base).doA();
-			break;
-		case B:
-			((B) base).doB();
-			break;
-		case C:
-			((C) base).doC();
-			break;
-		case D:
-			((D) base).doD();
-			break;
-		case E:
-			((E) base).doE();
-			break;
-		case F:
-			((F) base).doF();
-			break;
-		case G:
-			((G) base).doG();
-			break;
-		case H:
-			((H) base).doH();
-			break;
-		case I:
-			((I) base).doI();
-			break;
-		case J:
-			((J) base).doJ();
-			break;
-		default:
-			break;
+			case A:
+				((A) base).doA();
+				break;
+			case B:
+				((B) base).doB();
+				break;
+			case C:
+				((C) base).doC();
+				break;
+			case D:
+				((D) base).doD();
+				break;
+			case E:
+				((E) base).doE();
+				break;
+			case F:
+				((F) base).doF();
+				break;
+			case G:
+				((G) base).doG();
+				break;
+			case H:
+				((H) base).doH();
+				break;
+			case I:
+				((I) base).doI();
+				break;
+			case J:
+				((J) base).doJ();
+				break;
+			default:
+				break;
 		}
 	}
 

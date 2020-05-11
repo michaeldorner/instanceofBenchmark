@@ -6,10 +6,6 @@ public class A extends Base {
 		super(Type.A);
 	}
 
-	public boolean isA() {
-		return true;
-	}
-
 	public void doA() {
 		i = i * -1;
 	}
